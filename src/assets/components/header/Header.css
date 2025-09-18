@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100%;
+    height: 4.8rem;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000000;
+    background-color: #5ECBE0;    
+}
