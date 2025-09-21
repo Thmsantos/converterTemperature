@@ -5,9 +5,11 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Modal from '../modal/Modal';
 
+type tempTypes = 'Fahrenheit para celsius' | 'Celsius para fahrenheit';
+
 export default function Body(){
     const [showModal, setShowModal] = useState<boolean>(false);
-    const [type, setType] = useState<string>()
+    const [type, setType] = useState<tempTypes>()
     
     function fahrenheitToCelsius(){
         setType('Fahrenheit para celsius');

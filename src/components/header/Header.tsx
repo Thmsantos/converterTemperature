@@ -1,5 +1,5 @@
 import './Header.css';
-import etecLogo from '../../../../public/etec.png';
+import etecLogo from '../../../public/etec.png';
 
 export default function Header() {
     return (
