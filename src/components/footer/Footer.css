@@ -1,4 +1,33 @@
-.text{
-    background-color: #3ea4b9;
-    height: 2.75rem;    
+.footer {
+    background-color:  #3ea4b9;  
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-text {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.footer-links {
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: #3e4347;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #06141d;
+}
+
+.footerImg{
+    height: 45px;
+    width: auto;
 }
