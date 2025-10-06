@@ -30,7 +30,12 @@ export default function Body(){
                     <RiFahrenheitFill style={{ fontSize: '100px' }} />
                 </div>
 
-                <Button className='submitButton' onClick={() => celsiusToFahrenheit()} >Calcular</Button>
+                <Button 
+                    className='submitButton'
+                    aria-label="Converter Celsius para Fahrenheit"
+                    onClick={() => celsiusToFahrenheit()}>
+                        Calcular
+                </Button>
             </div>
 
             <div className='container'>
@@ -40,7 +45,12 @@ export default function Body(){
                     <RiFahrenheitFill style={{ fontSize: '100px' }} />
                 </div>
 
-                <Button className='submitButton' onClick={() => fahrenheitToCelsius()}>Calcular</Button>
+                 <Button 
+                    className='submitButton'
+                    aria-label="Converter Celsius para Fahrenheit"
+                    onClick={() => fahrenheitToCelsius()}>
+                        Calcular
+                </Button>
             </div>
 
             {showModal && (

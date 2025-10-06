@@ -3,7 +3,7 @@ import './Modal.css';
 import { IoMdClose } from "react-icons/io";
 
 interface Props {
-  type: string;
+  type: 'Fahrenheit para celsius' | 'Celsius para fahrenheit';
   onClose: () => void;
 }
 
